@@ -6,7 +6,7 @@
 /*   By: dkozacze <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/24 15:26:42 by dkozacze          #+#    #+#             */
-/*   Updated: 2020/12/07 10:21:45 by dkozacze         ###   ########lyon.fr   */
+/*   Updated: 2020/12/09 16:37:36 by dkozacze         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ char	*ft_strchr(const char *s, int c)
 	i = 0;
 	while (s[i])
 	{
-		if (s[i] == c)
+		if (s[i] == (char)c)
 			return ((char *)&s[i]);
 		i++;
 	}
